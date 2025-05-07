@@ -1,5 +1,6 @@
 # Mechanism-SMILES
 We structured each data entry as an integrated triplet comprising mechanistic diagrams (e.g., electron-pushing arrow schematics), natural language descriptions of reaction steps, and standardized Mechanism SMILES representations, enabling multimodal benchmarks to assess both general and domain-specific large language models (LLMs). This design facilitates evaluation for multiple tasks, such as testing LLMs' mechanistic comprehension via natural language through bi-directional translation between natural language and Mechanism SMILES, as well as challenging multimodal LLMs through cross-modal tasks, such as generating Mechanism SMILES from reaction diagrams, among other tasks. An example of a data entry is as follow:
+
 {
   "id": "3",
   "image_path": "images/image_3.png",
